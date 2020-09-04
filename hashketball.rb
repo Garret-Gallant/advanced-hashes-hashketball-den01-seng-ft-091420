@@ -169,5 +169,9 @@ def player_numbers team_name
   end
 end
 
-def player_stats
+def player_stats player_name
+  game_hash.map do |home_away, team_properties|
+    team_properties
+    end
+end
   
