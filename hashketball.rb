@@ -156,6 +156,6 @@ end
 def team_names
   game_hash.each do |home_away, team_properties|
     binding.pry
-    return team_properties[:team_name]
+    return team_properties[:team_name].to_s
     end
 end
