@@ -150,6 +150,5 @@ end
 def team_colors team_name
   game_hash.each do |home_away, team_properties|
     return team_properties[:colors] if team_name == team_properties[:team_name]
-    
-  end
+    end
 end
