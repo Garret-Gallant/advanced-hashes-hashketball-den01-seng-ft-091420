@@ -159,6 +159,7 @@ def team_names
     end
 end
 
-def player_numbers player_name
-  
+def player_numbers team_name
+  game_hash.each do |home_away, team_properties|
+    
 end
