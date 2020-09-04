@@ -149,7 +149,6 @@ end
 
 def team_colors player_name
   game_hash.each do |home_away, team_properties|
-      return player[:shoe] if player_name == player[:player_name]
-    end
+      binding.pry
   end
 end
