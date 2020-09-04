@@ -170,8 +170,9 @@ def player_numbers team_name
 end
 
 def player_stats player_name
-  game_hash.map do |home_away, team_properties|
-    
+  game_hash.each do |home_away, team_properties|
+    team_properties[:players].map do |player|
+      
   end
 end
   
