@@ -133,7 +133,7 @@ end
 
 def num_points_scored (player_name)
   game_hash.each do |home_away, team_properties|
-    team_properties[:players].each do |players|
+    team_properties[:players].each do |player|
       
       
   end
