@@ -155,6 +155,6 @@ end
 
 def team_names
   game_hash.map do |home_away, team_properties|
-    return team_properties[:team_name]
+    team_properties[:team_name]
     end
 end
