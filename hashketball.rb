@@ -191,4 +191,5 @@ def big_shoe_rebound
       end
     end
   end
+  rebound_count_of_largest_shoe_size
 end
