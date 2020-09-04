@@ -154,8 +154,8 @@ def team_colors team_name
 end
 
 def team_names
+  binding.pry
   game_hash.each do |home_away, team_properties|
     return team_properties[:team_name]
-    binding.pry
     end
 end
