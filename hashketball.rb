@@ -147,7 +147,7 @@ def shoe_size player_name
   end
 end
 
-def team_colors player_name
+def team_colors team_name
   game_hash.each do |home_away, team_properties|
     
   end
