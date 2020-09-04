@@ -186,8 +186,8 @@ def big_shoe_rebound
     team_properties[:players].each do |player|
       if player[:shoe] > largest_shoe_size
         largest_shoe_size == player[:shoe]
+        return player[:shoe]
       end
-      return player[:shoe]
     end
   end
 end
