@@ -132,7 +132,8 @@ end
 # Write code here
 
 def num_points_scored (player_name)
-  game_hash.each do |key, value|
-    
+  game_hash.each do |home_away, team_properties|
+    team_properties[:players].each do |points|
+      
   end
 end
