@@ -155,6 +155,6 @@ end
 
 def team_names
   game_hash.each do |home_away, team_properties|
-    return team_properties[:team_name].to_s
+    return team_properties[:team_name]
     end
 end
