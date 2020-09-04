@@ -1,4 +1,7 @@
 # Write your code below game_hash
+require 'pry'
+require './hashketball.rb'
+
 def game_hash
   {
     home: {
@@ -127,3 +130,4 @@ def game_hash
 end
 
 # Write code here
+
