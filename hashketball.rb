@@ -158,3 +158,11 @@ def team_names
     team_properties[:team_name]
     end
 end
+
+def player_numbers player_name
+  game_hash.each do |home_away, team_properties|
+    team_properties[:players].each do |player|
+      return player[:number] if player_name == player[:player_name]
+    end
+  end
+end
