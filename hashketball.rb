@@ -171,7 +171,7 @@ end
 
 def player_stats player_name
   game_hash.map do |home_away, team_properties|
-    return team_properties[:players]
+    return team_properties[:players] if player_name == team_properties[:player_name]
     end
 end
   
