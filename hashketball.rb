@@ -155,7 +155,6 @@ end
 
 def team_names team_name
   game_hash.each do |home_away, team_properties|
-    binding.pry
     return team_properties[:colors] if team_name == team_properties[:team_name]
     end
 end
