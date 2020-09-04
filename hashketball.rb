@@ -179,7 +179,7 @@ def player_stats player_name
   end
 end
   
-def big_shoe_rebound
+def big_shoe_rebounds
   largest_shoe_size = 0
   rebound_count_of_largest_shoe_size = 0
   
